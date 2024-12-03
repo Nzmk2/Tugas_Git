@@ -55,27 +55,13 @@ print(f"Jumlah hasil panen jagung dari lokasi 2 atau {data_panen['lokasi2']['nam
 print(f"Jumlahnya adalah {data_panen['lokasi2']['hasil_panen']['jagung']} ")
 
 
-print("="*60)
-print(f"Nama lokasi dari lokasi 3 adalah {data_panen['lokasi3']['nama_lokasi']}")
-
-print("="*60)
-
 print(":"*60)
+print(f"Nama lokasi dari lokasi 3 adalah {data_panen['lokasi3']['nama_lokasi']}")
+
+print("/"*60)
+
+print("/"*60)
 
 print("/"*60)
 print(f"Nama lokasi dari lokasi 3 adalah {data_panen['lokasi3']['nama_lokasi']}")
 
-print("/"*60)
-for j, y in data_panen.items():
-    nama_lok = y['nama_lokasi']
-    padi = y['hasil_panen']['padi']
-    jagung = y['hasil_panen']['jagung']
-
-    print(f"Nama lokasi: {nama_lok}\n"
-          f"Jumlah panen padi {padi}\n"
-          f"Jumlah panen jagung {jagung}")
-    
-    if padi > 1300 or jagung > 800:
-        print(f"Lokasi {nama_lok} memerlukan perhatian khusus\n")
-    else:
-        print(f"Lokasi {nama_lok} dalam kondisi baik\n")
