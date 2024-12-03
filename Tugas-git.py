@@ -46,27 +46,23 @@ print("Berikut merupakan seluruh data panen")
 for i in data_panen.items():
     print(i)
 
-<<<<<<< HEAD
-print("="*60)
 
+print("="*60)
 print(":"*60)
-=======
 print("/"*60)
->>>>>>> Baru
+
 print(f"Jumlah hasil panen jagung dari lokasi 2 atau {data_panen['lokasi2']['nama_lokasi']}")
 print(f"Jumlahnya adalah {data_panen['lokasi2']['hasil_panen']['jagung']} ")
 
 
-<<<<<<< HEAD
 print("="*60)
 print(f"Nama lokasi dari lokasi 3 adalah {data_panen['lokasi3']['nama_lokasi']}")
 
 print("="*60)
 
 print(":"*60)
-=======
+
 print("/"*60)
->>>>>>> Baru
 print(f"Nama lokasi dari lokasi 3 adalah {data_panen['lokasi3']['nama_lokasi']}")
 
 print("/"*60)
